@@ -1,0 +1,22 @@
+{
+    "recipes": [
+        {
+            "id":1,
+            "name": "Lemon chicken",
+            "image":"https://natashaskitchen.com/wp-content/uploads/2020/02/Lemon-Chicken-3.jpg",
+            "description": "Whisk eggs, garlic powder, italian seasoning, salt and pepper, then dip your chicken. In a seperate bowl, you will make a concoction of parmeason cheese and flour. You will then coat your freshly clean and cut chicken there after. Prepare your skillet with oil and let simmer. Add your chicken and cook for 5 minutes each side. After you cook the chicken, you will make your butter sauce. In the same skilet, add garlic, butter, lemon juice, chicken broth and italian seasoning. Let it cook for about 2 minutes and coat your chicken with the sauce. Best served with a side dish (asparagus, baked potatos or rice of your choice). "
+        },
+        {
+            "id":2,
+            "name":"Poched eggs and avocado toast",
+            "image":"https://pinchofyum.com/wp-content/uploads/2014/07/poached-egg-toast-5.jpg",
+            "description":"Boil hot water in a pot, after crack the egg directly into the pot, poach for 5 minutes for a semi-soft yolk. While the eggs are cooking, you will toast your bread. then you will take an avocado, smash it, add salt, pepper, parmeasan cheese, and herbs of your choice. once the toast is ready, you will add that spread onto the slices of bread. Once the poaced eggs are ready, you will add that on top of the spread. cut cherry tomatos and add that on top of the eggs."
+        },
+        {
+            "id":3,
+            "name": "Morrir Soñando",
+            "image":"https://www.dominicancooking.com/wp-content/uploads/morir-sonando-044.jpg",
+            "description":"In the mixure, you will add 4 cups of chilled evaporated milk, 3/4 cup of white sugar, 1 table spoon of vanilla extract and 2 1/2 cups of fresh orange juice. Best served with ice!"
+        }
+    ]
+}

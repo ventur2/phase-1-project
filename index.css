@@ -1,0 +1,33 @@
+.recipe-card {
+  text-align: center;
+  border: grey solid 1px;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 22rem;
+  height: 32rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px red;
+}
+.imgClass {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+h1 {
+text-align: center;
+font-size: 60px;
+}
+
+.bttnClass {
+color: red;
+}
+
+.display {
+    display: block;
+    float: center;
+  }
+  
+  .pDescription {
+    display: none;
+  }
