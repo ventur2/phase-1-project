@@ -6,14 +6,20 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function getRecipes() {
-    fetch("http://localhost:3000/recipes")
+    fetch("http://localhost:1152/recipe.txt")
         .then(response => response.json())
-        .then(response => response.forEach(recipe => {
-            holdRecipes(recipe)
-            hoveredRecipe()
-        }
-    ))
-}
+        .then(response => response.forEach(response => {
+            Object.values(response).forEach(response => {
+                console.log(response)
+                response.forEach(response => {
+                    console.log(response)
+                    holdRecipes(response)
+                    hoveredRecipe(response)
+                }
+            )}
+        )})
+                    
+    )
   
 getRecipes()
 
@@ -22,13 +28,14 @@ function holdRecipes(recipe){
     
     const recipeContainer = document.querySelector("#recipe-container")
     const div = document.createElement("div")
-    div.classList.add("recipe-card")
+    div.classList.add("recipe-card" + recipe.id)
     const h2 = document.createElement("h2")
     h2.classList.add("pClass")
     h2.innerText = recipe.name
     const p = document.createElement("p")
     p.innerText = recipe.description
-    p.classList.add("pDescription")
+    p.classList.add("pDescription" + recipe.id)
+    p.classList.add("hide")
     const img = document.createElement("img")
     img.src = recipe.image
     img.classList.add("imgClass")
