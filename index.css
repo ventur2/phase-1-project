@@ -15,3 +15,7 @@
     height: 12rem;
     width: auto;
   }
+  .bttnClass {
+    color: red;
+    margin-left: 20px;
+    }
