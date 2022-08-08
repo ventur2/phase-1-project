@@ -4,15 +4,11 @@ different paletes. However, I put together my three top favorite dishes. It's
  interactive because it allows the users to like the recipe that is shown. The receipes are descriptive
  and easy to follow. 
 
-### Requirements
+### Requirements and Installation
 Copy and paste this `url` (https://github.com/ventur2/phase-1-project) into your browser. Fork and
  clone the **SSH key** into your terminal using the command `git clone (url).` After, use the command `code .` 
  to open the file in your prefered code editor. Also must have json server installed.
 
-### Installation Intructures
-* fork and clone
-* run json server for dj.so
-* open index.html in the browser
 
 ### Contributing 
 you can contribute by emailing 123445@gmail.com
