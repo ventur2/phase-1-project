@@ -18,7 +18,7 @@ in your terminal.
 You can contribute by emailing TheNoblefoodie@gmail.com
 
 ### License
-MIT 
+MIT
 
 ### Credit
 https://www.dominicancooking.com/976/morir-sonando
