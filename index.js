@@ -5,22 +5,19 @@ document.addEventListener("DOMContentLoaded", () => {
     
 })
 
-function getRecipes() {
-    fetch("http://localhost:1152/recipe.txt")
-        .then(response => response.json())
-        .then(response => response.forEach(response => {
-            Object.values(response).forEach(response => {
-                console.log(response)
-                response.forEach(response => {
-                    console.log(response)
-                    holdRecipes(response)
-                    hoveredRecipe(response)
-                }
-            )}
-        )})
+
                     
-    )
-  
+function getRecipes() {
+    fetch("http://localhost:3000/recipes")
+        .then(response => response.json())
+        .then(response => response.forEach(recipe => {
+            holdRecipes(recipe)
+            hoveredRecipe(recipe)
+        }
+    ))
+}
+    
+            
 getRecipes()
 
 
@@ -51,23 +48,18 @@ function holdRecipes(recipe){
 
 
 }
-function hoveredRecipe () {
-    document.querySelectorAll(".recipe-card").forEach( hovered => {
+function hoveredRecipe (recipe) {
+    document.querySelectorAll(".recipe-card" + recipe.id).forEach(hovered => {
         hovered.addEventListener("mouseenter", (e) => {
-            const hovering = document.querySelector(".pDescription")
-            // console.log(hovered)
-            hovering.classList.add(".display")
+            const hovering = document.querySelector(".pDescription" + recipe.id)
+            hovering.classList.add("display")
+            hovering.classList.remove("hide")
         })
-        hovered.addEventListener("mouseleave", (e) => {
-            // console.log("mouseoff",e)
-    
-            const hovering = hovered.querySelector(".pDescription")
-            hovering.classList.remove(".display")
-    })    
-    
+    hovered.addEventListener("mouseleave", (e) => {
+            const hovering = document.querySelector(".pDescription" + recipe.id)
+            hovering.classList.remove("display")
+            hovering.classList.add("hide")
     })
+})
+
 }
-
-
-
-// document.querySelector('.recipe-card').addEventListener("mouseenter", entering);
