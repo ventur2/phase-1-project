@@ -15,7 +15,7 @@ For MAC users, type `open index.html` in your terminal and for Windows users, ty
 in your terminal. 
 
 ### Contributing 
-you can contribute by emailing 123445@gmail.com
+You can contribute by emailing TheNoblefoodie@gmail.com
 
 ### License
 MIT 
