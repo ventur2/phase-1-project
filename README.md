@@ -1,6 +1,6 @@
 # The Noble Foodie
 The Noble Foodie is a website that I put together showing a few recipes. I enjoy cooking and trying
-different paletes. However, I put together my three top favorite dishes. It's
+different paletes. However, I put together my top three favorite dishes. It's
  interactive because it allows the users to like the recipe that is shown. The receipes are descriptive
  and easy to follow. 
 
@@ -21,7 +21,9 @@ You can contribute by emailing TheNoblefoodie@gmail.com
 MIT
 
 ### Credit
-https://www.dominicancooking.com/976/morir-sonando
+https://www.dominicancooking.com/976/morir-sonando 
+
 https://pinchofyum.com/simple-poached-egg-avocado-toast
+
 https://natashaskitchen.com/lemon-chicken-recipe/
-    
+
