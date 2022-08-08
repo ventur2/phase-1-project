@@ -5,7 +5,9 @@ different paletes. However, I put together my three top favorite dishes. It's
  and easy to follow. 
 
 ### Requirements
-have json server installed
+Copy and paste this `url` (https://github.com/ventur2/phase-1-project) into your browser. Fork and
+ clone the **SSH key** into your terminal using the command `git clone (url).` After, use the command `code .` 
+ to open the file in your prefered code editor. Also must have json server installed.
 
 ### Installation Intructures
 * fork and clone
