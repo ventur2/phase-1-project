@@ -24,3 +24,6 @@
     display: block;
     float: center;
   }
+  .hide {
+    display: none;
+  }
