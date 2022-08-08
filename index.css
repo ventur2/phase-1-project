@@ -19,3 +19,8 @@
     color: red;
     margin-left: 20px;
     }
+
+.display {
+    display: block;
+    float: center;
+  }
