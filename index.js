@@ -36,3 +36,19 @@ function holdRecipes(recipe){
     })
     div.append(h2,img,bttn,p)
     recipeContainer.append(div)
+}
+function hoveredRecipe (recipe) {
+    document.querySelectorAll(".recipe-card" + recipe.id).forEach(hovered => {
+        hovered.addEventListener("mouseenter", (e) => {
+            const hovering = document.querySelector(".pDescription" + recipe.id)
+            hovering.classList.add("display")
+            hovering.classList.remove("hide")
+        })
+    hovered.addEventListener("mouseleave", (e) => {
+            const hovering = document.querySelector(".pDescription" + recipe.id)
+            hovering.classList.remove("display")
+            hovering.classList.add("hide")
+    })
+})
+
+}
