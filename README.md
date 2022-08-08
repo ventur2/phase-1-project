@@ -9,6 +9,10 @@ Copy and paste this `url` (https://github.com/ventur2/phase-1-project) into your
  clone the **SSH key** into your terminal using the command `git clone (url).` After, use the command `code .` 
  to open the file in your prefered code editor. Also must have json server installed.
 
+## Usage
+To begin, type `json-server --watch db.json` in your terminal.
+For MAC users, type `open index.html` in your terminal and for Windows users, type `explorer.exe index.html` 
+in your terminal. 
 
 ### Contributing 
 you can contribute by emailing 123445@gmail.com
