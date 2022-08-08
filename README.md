@@ -1,4 +1,4 @@
-# Project name
+# The Noble Foodie
 The Noble Foodie is a website that I put together showing a few recipes. I enjoy cooking and trying
 different paletes. However, I put together my three top favorite dishes. It's
  interactive because it allows the users to like the recipe that is shown. The receipes are descriptive
