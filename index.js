@@ -44,7 +44,7 @@ function hoveredRecipe (recipe) {
             hovering.classList.add("display")
             hovering.classList.remove("hide")
         })
-    hovered.addEventListener("mouseleave", (e) => {
+        hovered.addEventListener("mouseleave", (e) => {
             const hovering = document.querySelector(".pDescription" + recipe.id)
             hovering.classList.remove("display")
             hovering.classList.add("hide")
